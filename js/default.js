@@ -1,4 +1,10 @@
-for(var i = 0; i < 100; i++)
+document.getElementById('form').onsubmit = function()
+{
+  window.alert(document.getElementById('form').number.value);
+  return false;
+}
+
+for(var i = 0; i < numver; i++)
 {
   var li = document.createElement('li');
   
