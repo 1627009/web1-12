@@ -1,7 +1,6 @@
 document.getElementById('form').onsubmit = function()
 {
   window.alert(document.getElementById('form').number.value);
-  return false;
 }
 
 for(var i = 0; i < document.form.number.value; i++)
