@@ -1,9 +1,10 @@
+var input = 0;
+
 document.getElementById('form').onsubmit = function()
 {
   window.alert(document.getElementById('form').number.value);
+  input = document.getElementById('number').value
 }
-
-var input = document.getElementById('number').value
 
 for(var i = 0; i < input; i++)
 {
