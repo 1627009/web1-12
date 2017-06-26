@@ -4,7 +4,7 @@ document.getElementById('form').onsubmit = function()
   return false;
 }
 
-for(var i = 0; i < 100; i++)
+for(var i = 0; i < document.getElementById('form').number.value; i++)
 {
   var li = document.createElement('li');
   
