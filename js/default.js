@@ -3,7 +3,7 @@ var input = true;
 document.getElementById('form').onsubmit = function()
 {
   window.alert(document.getElementById('form').number.value);
-  input = document.getElementById('form').number;
+  input = number;
 }
 
 for(var i = 0; i < input; i++)
