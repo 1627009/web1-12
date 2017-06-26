@@ -1,6 +1,9 @@
+var input = true;
+
 document.getElementById('form').onsubmit = function()
 {
   window.alert(document.getElementById('form').number.value);
+  input = document.getElementById('form').number.value;
 }
 
 for(var i = 0; i < document.getElementById('form').number.value; i++)
