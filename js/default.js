@@ -3,7 +3,9 @@ document.getElementById('form').onsubmit = function()
   window.alert(document.getElementById('form').number.value);
 }
 
-for(var i = 0; i < document.getElementById('number').value; i++)
+var input = document.getElementById('number').value
+
+for(var i = 0; i < input; i++)
 {
   var li = document.createElement('li');
   
