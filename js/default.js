@@ -1,10 +1,9 @@
 document.getElementById('form').onsubmit = function()
 {
   window.alert(document.getElementById('form').number.value);
-  var input = document.getElementById('form').number.value;
 }
 
-for(var i = 0; i < input; i++)
+for(var i = 0; i < document.getElementById('form').number.value; i++)
 {
   var li = document.createElement('li');
   
