@@ -2,9 +2,9 @@ for(var i = 0; i < 100; i++)
 {
   var li = document.createElement('li');
   
-  if((i + 1) % 3 = 0)
+  if((i + 1) % 3 == 0)
     li.textContent = 'Fizz';
-  else if((i + 1) % 5 = 0)
+  else if((i + 1) % 5 == 0)
     li.textContent = 'Buzz';
   else
     li.textContent = i + 1 + '回目';
