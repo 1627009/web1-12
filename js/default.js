@@ -1,4 +1,4 @@
-var input = 0;
+var input = 100;
 
 document.getElementById('form').onsubmit = function()
 {
