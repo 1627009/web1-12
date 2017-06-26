@@ -3,8 +3,9 @@ var input = 100;
 document.getElementById('form').onsubmit = function()
 {
   window.alert(document.getElementById('form').number.value);
-  input = document.getElementById('form').number.value;
 }
+
+input = document.getElementById('form').number.value;
 
 for(var i = 0; i < input; i++)
 {
